@@ -1,11 +1,15 @@
 body {
     margin: 0;
+    height: 100%;
+    width: auto;
+    background: #9e9e9e;
 }
 
 header {
     background: url();
-    background-color: #9e9e9e;
+    background-color: white;
     padding: 1rem 0;
+    border-bottom: 1px solid black;
 }
 
 header a {
@@ -17,22 +21,39 @@ nav {
     border-bottom: 1px solid black;
     max-width: 100%;
     background-color: #62629d;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    border-right: 1px solid white;
+    padding: 0;
+    margin: 0;
 }
 
 nav ul li {
     display: inline-block;
+    padding: .5rem 1.5rem;
+    margin: 0;
+    border-right: 1px solid white;
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
-    padding: 0 .3rem;
+    text-shadow: 1px 1px 1px black;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li.active {
+    background: white;
 }
 
 .frontintro {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    background-color: gray;
+    background-color: white;
 }
 
 .skills {
@@ -40,10 +61,21 @@ nav ul li a {
     border-bottom: 1px solid black;
     background: #9191ba;
     height: 5rem;
-    widows: 5rem;
 }
+
+.html5,
+.css3,
+.responsive,
+.adobe,
+.wordpress {
+    height: 4rem;
+    width: 4rem;
+    border: 1px solid black;
+    display: inline-block;
+}
+
 footer {
     border-top: 1px solid black;
-    background-color: gray;
+    background-color: white;
     padding: 1rem;
 }
