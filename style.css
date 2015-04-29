@@ -9,7 +9,7 @@
 
 
 
-/*====================[ CSS Rest ]======================*/
+/*====================[ CSS Rest ]======================
 
 html, 
 body, 
@@ -44,9 +44,8 @@ nav {
     font: inherit;	
     vertical-align: baseline;
 }
-
-/*====================[ Typography ]======================*/
-
+*/
+/*====================[ Typography ]======================
 h1, 
 h2, 
 h3, 
@@ -56,6 +55,7 @@ h6,
 p {
     clear: both;
 }
+*/
 
 html {
     height: 100%;
@@ -63,67 +63,70 @@ html {
     font-weight: 400;
 }
 
-body {
-    margin: 0;
-    height: 100%;
-    width: auto;
-    background: ;
-}
+
 
 /*====================[ Header ]======================*/
 
 header {
-    background: url();
     background-color: #8DAB7F;
-    padding: 0;
     border-bottom: 1px solid black;
+    height: 6.5rem;
 }
 
 .titlelink {
+    transform: rotate(5deg) scale(1.1);
     background-color: #587B7F;
-    margin: 0;
-    padding: 0;
-    height: 3rem;
+    display: inline-block;
+    float: right;
+    width: 100%;
 }
 
 .titlelink a {
+    transform: skew(5deg);
     color: #FFFFFF;
     text-decoration: none;
-    padding: 1rem 0;
+    padding-right: 8rem;
+    display: inline-block;
+    float: right;
 }
 
 .tagline {
+    transform: rotate(5deg) scale(1.1);
     background-color: #1E2019;
-    margin: 0;
-    padding: 0;
-    height: 2rem;
+    display: inline-block;
+    float: right;
+    width: 100%;
 }
 
 .tagline h2 {
+    transform: skew(5deg);
     color: #FFFFFF;
-    padding: 1rem 0;
+    padding-right: 4rem;
+    display: inline-block;
+    float: right;
 }
 
 /*===================[ Navigation ]====================*/
 
 nav {
-    border-bottom: 1px solid black;
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
+    width: 100%;
+    height: auto;
+    float: right;
+    display: inline-block;
+    background-color: #8DAB7F;
 }
 
 nav ul {
-    border-right: 1px solid white;
     padding: 0;
     margin: 0;
+    float: right;
 }
 
 nav ul li {
     display: inline-block;
     padding: .5rem 1.5rem;
     margin: 0;
-    border-right: 1px solid white;
+    float: left; 
 }
 
 nav ul li a {
@@ -140,10 +143,20 @@ nav ul li.active {
 
 /*======================[ Body ]=======================*/
 
+body {
+    margin: 0;
+    height: 100%;
+    width: auto;
+    float: right;
+    display: inline-block;
+}
+
 .frontintro {
-    border-top: 1px solid black;
     border-bottom: 1px solid black;
     background-color: #FFFFFF;
+    padding: 1rem;
+    float: right;
+    display: inline-block;
 }
 
 .skills {
