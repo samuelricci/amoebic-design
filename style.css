@@ -74,7 +74,7 @@ header {
 }
 
 .titlelink {
-    transform: rotate(5deg) scale(1.1);
+    transform: rotate(4deg) scale(1.1);
     background-color: #587B7F;
     display: inline-block;
     float: right;
@@ -91,7 +91,7 @@ header {
 }
 
 .tagline {
-    transform: rotate(5deg) scale(1.1);
+    transform: rotate(4deg) scale(1.1);
     background-color: #1E2019;
     display: inline-block;
     float: right;
@@ -101,7 +101,7 @@ header {
 .tagline h2 {
     transform: skew(5deg);
     color: #FFFFFF;
-    padding-right: 4rem;
+    padding-right: 8rem;
     display: inline-block;
     float: right;
 }
@@ -152,18 +152,20 @@ body {
 }
 
 .frontintro {
-    border-bottom: 1px solid black;
-    background-color: #FFFFFF;
-    padding: 1rem;
-    float: right;
-    display: inline-block;
+  border-bottom: 1px solid black;
+  background-color: #FFFFFF;
+  padding: 1rem;
+  float: right;
+  display: inline-block;
+  margin: 5rem 0;
+  border-top: 1px solid black;
 }
 
 .skills {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    background-color: #9191ba;
-    height: 100%;
+    background-color: ;
+    height: auto;
 }
 
 .html5,
@@ -172,12 +174,34 @@ body {
 .adobe,
 .wordpress,
 .seo {
-    height: 10rem;
-    width: 10rem;
+    height: 350px;
+    width: 350px;
+    margin: 2rem 4rem;
     border: 1px solid black;
     display: inline-block;
     float: left;
     background-color: #FFFFFF;
+}
+
+.html5 h2,
+.css3 h2,
+.responsive h2,
+.adobe h2,
+.wordpress h2,
+.seo h2 {
+    padding: 2rem;
+    text-align: center;
+}
+
+
+.html5 img,
+.css3 img,
+.responsive img,
+.adobe img,
+.wordpress img,
+.seo img {
+    width: 350px;
+    height: 350px;
 }
 
 /*=====================[ Footer ]======================*/
@@ -186,6 +210,8 @@ footer {
     border-top: 1px solid black;
     background-color: #8DAB7F;
     padding: 1rem;
+    width: 100%;
+    display: inline-block;
 }
 
 /*==================[ Media Queries ]==================*/
