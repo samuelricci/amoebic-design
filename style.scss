@@ -1,0 +1,246 @@
+/*=====================================================*/
+/*==================[ Color Palette ]==================*/
+/*===================[ HEX #587B7F ]===================*/
+/*===================[ HEX #1E2019 ]===================*/
+/*===================[ HEX #394032 ]===================*/
+/*===================[ HEX #8DAB7F ]===================*/
+/*===================[ HEX #CFEE9E ]===================*/
+/*=====================================================*/
+
+
+
+/*====================[ CSS Rest ]======================
+
+html, 
+body, 
+div, 
+span, 
+iframe,
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p, 
+blockquote, 
+a, 
+ol, 
+ul, 
+li,
+fieldset, 
+form, 
+article, 
+aside, 
+figure, 
+figcaption, 
+footer, 
+header, 
+nav {
+    margin: 0;	
+    padding: 0;	
+    border: 0;	
+    font-size: 100%;	
+    font: inherit;	
+    vertical-align: baseline;
+}
+*/
+/*====================[ Typography ]======================
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p {
+    clear: both;
+}
+*/
+
+html {
+    height: 100%;
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+}
+
+
+
+/*====================[ Header ]======================*/
+
+header {
+    background-color: #8DAB7F;
+    border-bottom: 1px solid black;
+    height: 6.5rem;
+}
+
+.titlelink {
+    transform: rotate(4deg) scale(1.1);
+    background-color: #587B7F;
+    display: inline-block;
+    float: right;
+    width: 100%;
+}
+
+.titlelink a {
+    transform: skew(5deg);
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-right: 8rem;
+    display: inline-block;
+    float: right;
+}
+
+.tagline {
+    transform: rotate(4deg) scale(1.1);
+    background-color: #1E2019;
+    display: inline-block;
+    float: right;
+    width: 100%;
+}
+
+.tagline h2 {
+    transform: skew(5deg);
+    color: #FFFFFF;
+    padding-right: 8rem;
+    display: inline-block;
+    float: right;
+}
+
+/*===================[ Navigation ]====================*/
+
+nav {
+    ul {
+        margin: 0;
+        padding: 0;
+        float: right;
+        }
+            
+    li {
+        display: inline-block;
+        float: left;
+        padding: .5rem 1.5rem;
+        }
+            
+    a {
+        text-decoration: none;
+        color: white;
+        text-shadow: 1px 1px 1px black;
+        }
+            
+    .active {
+        background-color: white;
+        }
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    float: right;
+    display: inline-block;
+    background-color: #8DAB7F;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: .5rem 1.5rem;
+    margin: 0;
+    float: left; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li.active {
+    background-color: white;
+}
+
+/*======================[ Body ]=======================*/
+
+body {
+    margin: 0;
+    height: 100%;
+    width: auto;
+    float: right;
+    display: inline-block;
+}
+
+.frontintro {
+  border-bottom: 1px solid black;
+  background-color: #FFFFFF;
+  padding: 1rem;
+  float: right;
+  display: inline-block;
+  margin: 5rem 0;
+  border-top: 1px solid black;
+}
+
+.skills {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: ;
+    height: auto;
+}
+
+.html5,
+.css3,
+.responsive,
+.adobe,
+.wordpress,
+.seo {
+    height: 350px;
+    width: 350px;
+    margin: 2rem 4rem;
+    border: 1px solid black;
+    display: inline-block;
+    float: left;
+    background-color: #FFFFFF;
+}
+
+.html5 h2,
+.css3 h2,
+.responsive h2,
+.adobe h2,
+.wordpress h2,
+.seo h2 {
+    padding: 2rem;
+    text-align: center;
+}
+
+
+.html5 img,
+.css3 img,
+.responsive img,
+.adobe img,
+.wordpress img,
+.seo img {
+    width: 350px;
+    height: 350px;
+}
+
+/*=====================[ Footer ]======================*/
+
+footer {
+    border-top: 1px solid black;
+    background-color: #8DAB7F;
+    padding: 1rem;
+    width: 100%;
+    display: inline-block;
+}
+
+/*==================[ Media Queries ]==================*/
+
+
+
+
+

@@ -71,6 +71,8 @@ header {
     background-color: #8DAB7F;
     border-bottom: 1px solid black;
     height: 6.5rem;
+    z-index: 500;
+    position: relative;
 }
 
 .titlelink {
@@ -79,10 +81,11 @@ header {
     display: inline-block;
     float: right;
     width: 100%;
+    
 }
 
 .titlelink a {
-    transform: skew(5deg);
+    transform: skew(4deg);
     color: #FFFFFF;
     text-decoration: none;
     padding-right: 8rem;
@@ -96,10 +99,11 @@ header {
     display: inline-block;
     float: right;
     width: 100%;
+    
 }
 
 .tagline h2 {
-    transform: skew(5deg);
+    transform: skew(4deg);
     color: #FFFFFF;
     padding-right: 8rem;
     display: inline-block;
@@ -159,6 +163,32 @@ body {
   display: inline-block;
   margin: 5rem 0;
   border-top: 1px solid black;
+  color: #000000;
+}
+
+#first {
+    background: url(background1.3front.png) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    height: 800px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    z-index: 300;
+}
+
+ 
+
+#second {
+    background: url(background2.1front.png) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    height: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    z-index: 200;
 }
 
 .skills {
@@ -203,6 +233,7 @@ body {
     width: 350px;
     height: 350px;
 }
+
 
 /*=====================[ Footer ]======================*/
 
